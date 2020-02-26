@@ -17,18 +17,26 @@ En dehors du domaine de la recherche, aucune solution existe qui permet à un ut
 
 ## Technologies
 
+### Approche
+
+Un modèle d'apprentissage profond qui classifie le genre musical sera développé à partir de la base de donnée [FMA](https://github.com/mdeff/fma) en utilisant la librarie Fastai pour pouvoir effectuer de l'apprentissage profond par transfert. L'entraînement sera effectué dans [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) pour profiter de la puissance de calcul gratuite. Une fois le modèle peaufiné, il sera exporté par une opération Pickle de la librairie [Scikit-learn](https://scikit-learn.org/stable/). En utilisant [Starlette](https://www.starlette.io/), un script en Python sera développé pour permettre le pré-traitement des données et l'inférence du modèle. Ce script sera déployé dans un contenant [Docker](https://www.docker.com/) sur le nuage.
+
 ### Bâtit avec
 
 * [Python](https://www.python.org/) - Langage de programmation pour l'apprentissage profond
 * [Dart](https://dart.dev/) - Langage de programmation pour le développement mobile
-* [Flutter](https://flutter.dev/) - Kit de développement mobile 
-* [MongoDB](https://www.mongodb.com/) - Programme de base de données
+* [Flutter](https://flutter.dev/) - Kit de développement mobile
+* [Node.js](https://nodejs.org/en/) - Librairie Javascript
+* [MariaDB](https://mariadb.org/) - Programme de base de données
 * [Docker](https://www.docker.com/) - Déploiement de conteneur
 * [Fastai](https://docs.fast.ai/) - Librairie bâtit sur [PyTorch](https://pytorch.org/) pour l'apprentissage profond en Python
 * [Scikit-learn](https://scikit-learn.org/stable/) - Libraire pour apprentissage machine en Python
 * [Matplotlib](https://matplotlib.org/) - Libraire de traçage en Python
 * [LibROSA](https://librosa.github.io/librosa/) - Libraire de traitement audio en Python
+* [Augmentor](https://github.com/mdbloice/Augmentor) - Libraire d'augmentation d'imagerie en Python
 * [PIL](https://www.pythonware.com/products/pil/) - Libraire de manipulation d'imagerie en Python
+* [Starlette](https://www.starlette.io/) - Libraire de service ASGI en Python
+
 
 ### Outils de développement
 
