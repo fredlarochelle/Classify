@@ -14,9 +14,18 @@ Application de classification par apprentissage profond pour mon projet d'intég
 * [LibROSA](https://librosa.github.io/librosa/) - Libraire de traitement audio en Python
 * [PIL](https://www.pythonware.com/products/pil/) - Libraire de manipulation d'imagerie en Python
 
+## Outils de développement
+* [Visual Studio Code](https://code.visualstudio.com/) - Éditeur de code
+* [Git](https://git-scm.com/) - Logiciel de gestion de versions décentralisé
+* [Github](https://github.com/) - Service d'hébergement web pour Git
+* [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) - Environnement de développement Jupyter en ligne avec un accès à des processeurs graphiques gratuit
+* [Clouderizer](https://clouderizer.com/) - Environnement de développement intégrer à Colab pour l'apprentissage machine
+* [Trello](https://trello.com/) - Service web pour la création de liste sous forme de tableau Kanban
+
+
 ## Auteur
 
-* **Frédéric Larochelle** - [Fredestroyer007](https://github.com/Fredestroyer007)
+* Frédéric Larochelle - [Fredestroyer007](https://github.com/Fredestroyer007)
 
 ## Licence
 
