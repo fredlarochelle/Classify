@@ -8,6 +8,7 @@ Le but de ce projet est de développer une application qui permet à l'utilisate
 En dehors du domaine de la recherche, aucune solution existe qui permet à un utilisateur d'obtenir le genre musical d'une chanson par apprentissage profond. Les solutions existantes comme [Shazam](https://www.shazam.com/) compare l'empreinte du fichier audio à leur banque de données pour obtenir la classification du genre musical qui a été effectué par humain. L'approche proposée dans le cadre de ce projet permet de retirer l'humain de boucle et de permettre la classification de genre musical sans une banque de données préexistente.
 ### Lien avec d'autres matières
 
+## Technologies
 ## Bâtit avec
 
 * [Python](https://www.python.org/) - Langage de programmation pour l'apprentissage profond
