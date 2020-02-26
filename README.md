@@ -14,6 +14,7 @@ En dehors du domaine de la recherche, aucune solution existe qui permet à un ut
 
 ### Lien avec d'autres matières
 
+## État de la recherche
 
 ## Technologies
 
@@ -21,6 +22,9 @@ En dehors du domaine de la recherche, aucune solution existe qui permet à un ut
 
 Un modèle d'apprentissage profond qui classifie le genre musical sera développé à partir de la base de données [FMA](https://github.com/mdeff/fma) en utilisant la librarie [Fastai](https://docs.fast.ai/) pour pouvoir effectuer de l'apprentissage profond par transfert. Les différents extraits musicaux seront convertis en image sous forme de spectrogramme avec la librairie [LibROSA](https://librosa.github.io/librosa/) pour diminuer la quantité de données que les réseaux de neurones profonds doivent gérer. L'entraînement sera effectué dans [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) pour profiter de la puissance de calcul gratuit. Une fois le modèle peaufiné, il sera exporté par une opération Pickle de la librairie [Scikit-learn](https://scikit-learn.org/stable/). En utilisant [Starlette](https://www.starlette.io/), un script en Python sera développé pour permettre le prétraitement des données et l'inférence du modèle. Ce script sera déployé dans un contenant [Docker](https://www.docker.com/) sur le nuage.<br><br>
 Pour l'application, elle sera développée avec [Flutter](https://flutter.dev/). Elle va inclure un API avec [Node.js](https://nodejs.org/en/) pour communiquer avec une base de données [MariaDB](https://mariadb.org/) pour permettre l'identification de l'utilisateur. L'application va aussi communiquer avec le contenant [Docker](https://www.docker.com/) du modèle d'apprentissage profond pour permettre le traitement des fichiers audios.
+
+### Défi
+
 
 ### Bâtit avec
 
@@ -57,4 +61,4 @@ Pour l'application, elle sera développée avec [Flutter](https://flutter.dev/).
 Ce projet est distribué sous la licence GNU General Public License v3.0 - voir le [LICENSE.md](LICENSE.md) fichier pour plus de détails
 
 ## TODO 
-défi, parler de l'état de la rechercher?, Écran vue, diagramme
+Écran vue, diagramme
