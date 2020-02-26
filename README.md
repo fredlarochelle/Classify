@@ -1,6 +1,13 @@
 # Classification musicale par apprentissage profond
 Application de classification par apprentissage profond pour mon projet d'intégration au Collège de Bois-de-Boulogne à la session d'hiver 2020
 
+## Description du projet
+### L'idée
+Le but de ce projet est de développer une application qui permet à l'utilisateur d'enregistrer ou téléverser un extrait d'une chanson et d'obtenir en retour le résultat du genre musical (pop, rock, classique, ...) de cet extrait.
+### L'utilité et l'inovation
+En dehors du domaine de la recherche, aucune solution existe qui permet à un utilisateur d'obtenir le genre musical d'une chanson par apprentissage profond. Les solutions existantes comme [Shazam](https://www.shazam.com/) compare l'empreinte du fichier audio à leur banque de données pour obtenir la classification du genre musical qui a été effectué par humain. L'approche proposée dans le cadre de ce projet permet de retirer l'humain de boucle et de permettre la classification de genre musical sans une banque de données préexistente.
+### Lien avec d'autres matières
+
 ## Bâtit avec
 
 * [Python](https://www.python.org/) - Langage de programmation pour l'apprentissage profond
@@ -16,6 +23,7 @@ Application de classification par apprentissage profond pour mon projet d'intég
 
 ## Outils de développement
 * [Visual Studio Code](https://code.visualstudio.com/) - Éditeur de code
+* [Android Studio](https://developer.android.com/studio) - Environnement de développement Android
 * [Git](https://git-scm.com/) - Logiciel de gestion de versions décentralisé
 * [Github](https://github.com/) - Service d'hébergement web pour Git
 * [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) - Environnement de développement Jupyter en ligne avec un accès à des processeurs graphiques gratuit
