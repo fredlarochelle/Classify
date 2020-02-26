@@ -58,7 +58,7 @@ Pour l'application, elle sera développée avec [Flutter](https://flutter.dev/).
 
 ## Licence
 
-Ce projet est distribué sous la licence GNU General Public License v3.0 - voir le [LICENSE](LICENSE) fichier pour plus de détails
+Ce projet est distribué sous la licence GNU General Public License v3.0 - voir le fichier [LICENSE](LICENSE) pour plus de détails
 
 ## TODO 
 Écran vue, diagramme
