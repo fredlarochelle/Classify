@@ -19,7 +19,7 @@ En dehors du domaine de la recherche, aucune solution existe qui permet à un ut
 
 ### Approche
 
-Un modèle d'apprentissage profond qui classifie le genre musical sera développé à partir de la base de donnée [FMA](https://github.com/mdeff/fma) en utilisant la librarie Fastai pour pouvoir effectuer de l'apprentissage profond par transfert. L'entraînement sera effectué dans [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) pour profiter de la puissance de calcul gratuite. Une fois le modèle peaufiné, il sera exporté par une opération Pickle de la librairie [Scikit-learn](https://scikit-learn.org/stable/). En utilisant [Starlette](https://www.starlette.io/), un script en Python sera développé pour permettre le pré-traitement des données et l'inférence du modèle. Ce script sera déployé dans un contenant [Docker](https://www.docker.com/) sur le nuage.
+Un modèle d'apprentissage profond qui classifie le genre musical sera développé à partir de la base de donnée [FMA](https://github.com/mdeff/fma) en utilisant la librarie Fastai pour pouvoir effectuer de l'apprentissage profond par transfert. L'entraînement sera effectué dans [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) pour profiter de la puissance de calcul gratuite. Une fois le modèle peaufiné, il sera exporté par une opération Pickle de la librairie [Scikit-learn](https://scikit-learn.org/stable/). En utilisant [Starlette](https://www.starlette.io/), un script en Python sera développé pour permettre le pré-traitement des données et l'inférence du modèle. Ce script sera déployé dans un contenant [Docker](https://www.docker.com/) sur le nuage.<br>
 Pour l'application, elle sera développé avec 
 
 ### Bâtit avec
