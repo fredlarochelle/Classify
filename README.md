@@ -49,6 +49,7 @@ Pour l'application, elle sera développée avec [Flutter](https://flutter.dev/).
 * [Git](https://git-scm.com/) - Logiciel de gestion de versions décentralisé
 * [Github](https://github.com/) - Service d'hébergement web pour Git
 * [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) - Environnement de développement Jupyter en ligne avec un accès à des processeurs graphiques gratuit
+* [Google One]https://one.google.com/() - Service de stockage nuagique
 * [Clouderizer](https://clouderizer.com/) - Environnement de développement intégrer à Colab pour l'apprentissage machine
 * [Trello](https://trello.com/) - Service web pour la création de liste sous forme de tableau Kanban
 
