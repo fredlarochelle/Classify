@@ -1,4 +1,4 @@
-# Classification musicale par apprentissage profond
+# Classify : Classification musicale par apprentissage profond
 
 Application de classification par apprentissage profond pour mon projet d'intégration au Collège de Bois-de-Boulogne à la session d'hiver 2020
 
